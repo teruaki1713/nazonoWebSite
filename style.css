@@ -1,0 +1,138 @@
+div.over {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.679);
+  height: 100vh;
+  width: 100%;
+  z-index: 5;
+}
+
+div.over div.overbox {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  z-index: 10;
+  width: 100%;
+}
+
+div.over div.overbox div.overcontent {
+  text-align: center;
+}
+
+div.over div.overbox div.overcontent h1 {
+  color: white;
+  font-family: 'Reggae One', cursive;
+}
+
+div.over div.overbox div.overcontent button {
+  background: none;
+  border: solid .2em white;
+  color: white;
+  font-family: 'Reggae One', cursive;
+  padding: .5em;
+  width: 70%;
+  margin-top: 3em;
+  outline: none;
+}
+
+header {
+  background: #4e2307;
+  text-align: center;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+header p {
+  font-family: 'Reggae One', cursive;
+  line-height: 50px;
+  color: #67a58f;
+}
+
+main {
+  z-index: 1;
+  margin-top: 50px;
+  background: url("../images/4k-uhd-monster-hunter-world-wallpapers.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+main div {
+  height: 100%;
+  position: relative;
+}
+
+main div div.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  height: 90%;
+  width: 94%;
+  background: rgba(0, 0, 0, 0.693);
+  -webkit-box-shadow: 0 0 10px 0 black;
+          box-shadow: 0 0 10px 0 black;
+  border-top: solid 10px #4e2307;
+  border-bottom: solid 10px #4e2307;
+  overflow-y: scroll;
+  text-align: center;
+}
+
+main div div.box input {
+  border: solid 1.5px #67a58f;
+  background: none;
+  width: 90%;
+  margin: 3em auto;
+  outline: none;
+  color: white;
+  font-family: 'Reggae One', cursive;
+  text-align: center;
+}
+
+main div div.box p {
+  font-family: 'Reggae One', cursive;
+  color: rgba(255, 255, 255, 0.405);
+  font-size: 12px;
+}
+
+main div div.box ul {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: .5em;
+  text-align: center;
+}
+
+main div div.box ul li {
+  width: 33.3%;
+  color: white;
+  font-family: 'Reggae One', cursive;
+}
+
+main div div.box ul.head {
+  border-bottom: solid 1px white;
+}
+
+main div div.box div.result ul {
+  opacity: .5;
+  color: #8d8d8d;
+}
+
+main div div.box div.result ul li {
+  font-family: 'Reggae One', cursive;
+}
+
+main div div.box div.result ul:first-child {
+  opacity: 1;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
