@@ -8,6 +8,7 @@ $(window).resize(()=>{
     setScreen();
 });
 
+
 var wordData = [
     "ア","イ","ウ","エ","オ",
     "カ","キ","ク","ケ","コ",
