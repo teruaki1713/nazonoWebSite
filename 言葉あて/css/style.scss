@@ -1,0 +1,124 @@
+div.over {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.679);
+    height: 100vh;
+    width: 100%;
+    z-index: 5;
+
+    div.overbox {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        z-index: 10;
+        width: 100%;
+        div.overcontent {
+            text-align: center;
+            h1 {
+                color: white;
+                font-family: 'Reggae One', cursive;
+            }
+
+            button {
+                background: none;
+                border: solid .2em white;
+                color: white;
+                font-family: 'Reggae One', cursive;
+                padding: .5em;
+                width: 70%;
+                margin-top: 3em;
+                outline: none;
+            }
+        }
+    }
+}
+
+header {
+    background: rgb(78, 35, 7);
+    text-align: center;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    p {
+        font-family: 'Reggae One', cursive;
+        line-height: 50px;
+        color: rgb(103, 165, 143);
+    }
+}
+
+main {
+    z-index: 1;
+    margin-top: 50px;
+    background: url("../images/4k-uhd-monster-hunter-world-wallpapers.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    div {
+        height: 100%;
+        position: relative;
+        div.box {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            height: 90%;
+            width: 94%;
+            background: rgba(0, 0, 0, 0.693);
+            box-shadow: 0 0 10px 0 black;
+            border-top: solid 10px rgb(78, 35, 7);
+            border-bottom: solid 10px rgb(78, 35, 7);
+            overflow-y: scroll;
+            text-align: center;
+
+            input {
+                border: solid 1.5px rgb(103, 165, 143);
+                background: none;
+                width: 90%;
+                margin: 3em auto;
+                outline: none;
+                color: white;
+                font-family: 'Reggae One', cursive;
+                text-align: center;
+            }
+            p {
+                font-family: 'Reggae One', cursive;
+                color: rgba(255, 255, 255, 0.405);
+                font-size: 12px;
+            }
+            ul {
+                width: 100%;
+                display: flex;
+                padding: .5em;
+                text-align: center;
+                li {
+                    width: 33.3%;
+                    color: white;
+                    font-family: 'Reggae One', cursive;
+                }
+            }
+            ul.head {
+                border-bottom: solid 1px white;
+            }
+
+            div.result {
+                ul {
+                    opacity: .5;
+                    color: rgb(141, 141, 141);
+                    li {
+                        font-family: 'Reggae One', cursive;
+                    }
+                }
+                ul:first-child {
+                    opacity: 1;
+                    color: white;
+                }
+            }
+        }
+    }
+}
